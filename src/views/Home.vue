@@ -6,7 +6,7 @@
         <li><a href="#Y">YOUR STYLE</a></li>
         <li><button @click="showModal = true">EXAMPLE</button></li>
         <li><a href="#P">PROJECT</a></li>
-        <li><a href="#B">ABOUT US</a></li>
+        <li><a href="#A">ABOUT US</a></li>
       </ul>
         <span class="open-slide"><i class="material-icons nav__icon" v-if="!opened" @click="opened = !opened">menu</i></span>
     </nav>
@@ -15,7 +15,7 @@
     <a href="#Y" class="one">YOUR STYLE</a>
     <button @click="showModal = true">EXAMPLE</button>
     <a href="#P">PROJECT</a>
-    <a href="#B">ABOUT US</a>
+    <a href="#A">ABOUT US</a>
   </div>
   <div class="popup" v-if="showModal">
     <div class="modal-vue">
