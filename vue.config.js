@@ -1,3 +1,9 @@
+// module.exports = {
+//   publicPath: '/your-style/'
+// }
+
 module.exports = {
-  publicPath: '/your-style/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/your-style/'
+    : '/'
 }
